@@ -8,6 +8,7 @@
   body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
+    color: #475F80;
   }
   main {
     padding: 0px 0px;
@@ -23,16 +24,14 @@
   .navbar {
     background: #fff;
     padding: 0 15px;
-    position: fixed;
     width: 100%;
     z-index: 1;
-    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.2);
   }
 
   .navbar__menu{
     list-style-type: none;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .item{
@@ -46,7 +45,6 @@
 
 .container{
     display: grid; 
-
     grid-template-rows: 1fr;
     grid-template-columns: 8fr 0.8fr 0.8fr 0.8fr;
     gap: 0px;
@@ -62,11 +60,61 @@
     display: flex;
     justify-content:baseline;
     margin-left: 100px;
+    background-color: #475F80;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+.logo{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
+  font-size: 35px;
 }
 
 .navbar__item{
     display: flex;
     justify-content: center;
     margin-right: 100px;
+    align-items: center;
+}
+
+.body-container{
+  margin-top: 110px;
+  display: grid; 
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px;
+  height: 100%;
+  grid-auto-flow: column;
+
+}
+
+
+.body-container__text{
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.body-container__image{
+  max-width: 1000px;
+  margin-right: 20px;
+}
+
+.body-container__h1{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+
+.body-container__p{
+  letter-spacing: 2px
 
 }
