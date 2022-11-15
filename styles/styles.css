@@ -347,6 +347,40 @@ a {
   text-shadow: none;
 }
 
+.green-light{
+  background-color: #5ED160;
+  box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
+
+.green-light:hover{
+  color: #5ED160;
+  text-shadow: none;
+}
+
+.yellow{
+  background-color: #CCC470;
+  box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
+
+.yellow:hover{
+  color: #CCC470;
+  text-shadow: none;
+}
+
+.yellow-lighter{
+  background-color: #E6DF9A;
+  box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
+
+.yellow-lighter:hover{
+  color: #E6DF9A;
+  text-shadow: none;
+}
+
+
 .red {
   background-color: #FE4365;
   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
@@ -357,6 +391,18 @@ a {
   color: #FE4365;
   text-shadow: none;
 }
+
+.red-light {
+  background-color: #FF459D;
+  box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
+
+.red-light:hover {
+  color: #FF459D;
+  text-shadow: none;
+}
+
 
 .purple {
   background-color: #C49CDE;
@@ -370,15 +416,27 @@ a {
 }
 
 .orange {
-  background-color: #FC913A;
+  background-color: #CC9670;
   box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
 
 .orange:hover {
-  color: #FC913A;
+  color: #CC9670;
   text-shadow: none;
 }
+
+.orange-light {
+  background-color: #FFB987;
+  box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.14);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
+
+.orange-light:hover {
+  color: #FFB987;
+  text-shadow: none;
+}
+
 
 .lightblue {
   background-color: #62C2E4;
