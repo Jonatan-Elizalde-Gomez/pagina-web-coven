@@ -470,3 +470,156 @@ a {
 .credit a:hover {
   text-decoration: underline;
 }
+
+
+
+.forms__container-h1{
+  text-align: center;
+}
+
+.form-containter-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.form-containter-3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.form-containter-4{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.prueba{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prueba-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prueba-2{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+
+.forms__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgb(248, 248, 248);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(163, 163, 163, 0.6);
+  border-radius: 10px;
+}
+
+.forms__container h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #475F80;
+  text-align: center;
+}
+
+.forms__container .form__item {
+  position: relative;
+}
+
+
+.forms__container .form__item input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #475F80;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #475F80;
+  outline: none;
+  background: transparent;
+}
+
+
+
+.forms__container .form__item label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #475F80;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.forms__container .form__item input:focus ~ label,
+.forms__container .form__item input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #475F80;
+  font-size: 12px;
+}
+
+.forms__container form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #475F80;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 4px
+}
+
+.forms__container a:hover {
+  background: #475F80;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #475F80,
+              0 0 20px #475F80;
+}
+
+.forms__container a span {
+  position: absolute;
+  display: block;
+}
+
+
+
+
+.forms__container a span:nth-child(1) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #475F80);
+  animation: btn-anim1 3s linear infinite;
+  animation-delay: .5s
+}
+
+@keyframes btn-anim1 {
+  0% {
+    right: -100%;
+  }
+  50%,100% {
+    right: 100%;
+  }
+}
+
+
+.forms__add-client{
+  width: 400px;
+}
