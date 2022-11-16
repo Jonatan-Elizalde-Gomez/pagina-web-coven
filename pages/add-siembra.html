@@ -34,12 +34,16 @@
             <h2>Siembra</h2>
             <form action="" class="form-containter-1">
     
-            <div class="center">
-                <div class="form__item">
-                    <input id="plant" type="text" name="" required="">
-                    <label>Nombre de planta</label>
+                <div class="center">
+                    <div class="form__item space">
+                            <select class="select" name="" id="cliente">
+                              <option value="" disabled>Planta</option>
+                              <option value="hacker">Maiz</option>
+                              <option value="ayuda">Trigo</option>
+                            </select>
+                            <label class="select-label">Planta</label>
+                    </div>
                 </div>
-            </div>
     
             <div class="center">
                 <div class="form__item">
@@ -48,8 +52,8 @@
                 </div>
             </div>
     
-            <div class="center-1">
-                <a href="#">
+            <div class="center-1" id="add-modal-merma">
+                <a>
                     <span></span>
                     Enviar
                 </a>
@@ -58,6 +62,7 @@
             </form>
           </div>
     </main>
-    
+
+      <script src="../javascript/script.js"></script>
 </body>
 </html>
