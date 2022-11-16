@@ -3,6 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    outline: none;
   }
 
   html{
@@ -493,19 +494,19 @@ a {
 }
 
 
-.prueba{
+.center{
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.prueba-1{
+.center-1{
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.prueba-2{
+.center-2{
   display: flex;
   align-items: center;
   justify-content: left;
@@ -525,6 +526,10 @@ a {
   border-radius: 10px;
 }
 
+.forms__container-more{
+  margin-top: 50px;
+}
+
 .forms__container h2 {
   margin: 0 0 30px;
   padding: 0;
@@ -537,8 +542,8 @@ a {
 }
 
 
-.forms__container .form__item input {
-  width: 100%;
+.forms__container .form__item input  {
+  width: 195px;
   padding: 10px 0;
   font-size: 16px;
   color: #475F80;
@@ -570,6 +575,16 @@ a {
   font-size: 12px;
 }
 
+.date-label{
+  top: -20px !important;
+  font-size: 12px !important;
+}
+
+.select-label{
+  top: -20px !important;
+  font-size: 12px !important;
+  
+}
 .forms__container form a {
   position: relative;
   display: inline-block;
@@ -620,6 +635,32 @@ a {
 }
 
 
-.forms__add-client{
+.{
   width: 400px;
+}
+.space{
+  margin-bottom: 30px;
+}
+
+.space-top{
+  margin-top: 20px;
+}
+.select{
+  border-style: none;
+  border-bottom: solid;
+  border-width: 1px;
+  width: 195px;
+  background-color: rgb(248, 248, 248);
+  color: #475F80;
+  font-size: 16px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.select:focus{
+  outline: none;
 }
