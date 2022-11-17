@@ -814,3 +814,117 @@ display: block;
 
 }
 
+
+
+
+.container-table {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+
+table {
+  
+  min-width: 600px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255, 255, 255, 0.034);
+	color: #fff;
+  white-space:nowrap;
+}
+
+th {
+  text-align: center;
+  font-weight: 700; 
+
+}
+
+td{
+  text-align: center;
+  	color: black;
+  font-weight: 600; 
+}
+
+
+thead,	th {
+		background-color: #475F80;
+	}
+
+
+	tr:hover {
+			background-color: rgba(71, 95, 128, 0.3);
+		}
+
+
+td{
+  position: relative;
+}
+
+td:hover:before {
+			content: "";
+			position: absolute;
+			left: 0;
+			right: 0;
+			top: -9999px;
+			bottom: -9999px;
+			background-color: rgba(71, 95, 128, 0.2);
+			z-index: -1;
+}
+
+
+
+  
+  .delete-button a {
+
+  padding: 5px 10px;
+  color: #de4c1b;
+  font-size: 16px;
+
+  transition: .5s;
+  
+  
+  }
+  
+  .delete-button a:hover {
+  background: #de4c1b;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #de4c1b,
+              0 0 20px #de4c1b;
+              
+  }
+  
+
+
+  .actualizar-button a {
+
+    padding: 5px 10px;
+    color: #669AE1;
+    font-size: 16px;
+  
+    transition: .5s;
+    
+    
+    }
+    
+    .actualizar-button a:hover {
+    background: #669AE1;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #669AE1,
+                0 0 20px #669AE1;
+                
+    }
+
+    th:last-child,
+    th:nth-last-child(2){
+      width: 110px;
+
+    }
