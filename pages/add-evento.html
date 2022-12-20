@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eb4e2d360b.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="../assets/tractor-solid.svg">
+    <title>Añadir evento</title>
+</head>
+
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul class="navbar__menu">
+                <div class="container">
+                    <li class="navbar__logo item"><a href="../index.html" class="logo">Co</a></li>
+                    <li class="navbar__item item"><a href="../index.html" class="navbar__link">Inicio</a></li>
+                    <li class="navbar__item item"><a href="add-menu.html" class="navbar__link">Agregar</a></li>
+                    <li class="navbar__item item"><a href="consult-menu.html" class="navbar__link">Consultar</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="forms__container ">
+            <h2>Evento</h2>
+            <form action="" class="form-containter-1">
+
+            <div class="center">
+                <div class="form__item space space-top">
+                        <select class="select" name="" id="siembra">
+                          <option value="" disabled>Siembra</option>
+                          <option value="hacker">Maiz 10/22/2022</option>
+                          <option value="ayuda">Trigo 20/08/2022</option>
+                        </select>
+                        <label class="select-label">Siembra</label>
+                </div>
+            </div>
+
+            <div class="center">
+                <div class="form__item space">
+                        <select class="select" name="" id="motivo">
+                          <option value="" disabled>Motivo</option>
+                          <option value="hacker">Regar</option>
+                          <option value="ayuda">Abonar</option>
+                        </select>
+                        <label class="select-label">Motivo</label>
+                </div>
+            </div>
+
+        
+            <div class="center">
+                <div class="form__item ">
+                    <input  id="date" type="date" name="" required="">
+                    <label class="date-label">Fecha</label>
+                </div>
+            </div>
+
+            <div class="center-1" id="add-merma-evento">
+                <a>
+                    <span></span>
+                    Enviar
+                </a>
+            </div>
+    
+            </form>
+          </div>
+    </main>
+    
+</body>
+</html>

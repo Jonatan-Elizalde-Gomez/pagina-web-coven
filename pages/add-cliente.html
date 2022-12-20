@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/eb4e2d360b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" type="image/x-icon" href="../assets/tractor-solid.svg" />
+    <title>Añadir cliente</title>
+    
+  </head>
+
+  <body>
+
+    <header>
+      <nav class="navbar">
+        <ul class="navbar__menu">
+          <div class="container">
+            <li class="navbar__logo item">
+              <a href="../index.html" class="logo">Co</a>
+            </li>
+            <li class="navbar__item item">
+              <a href="../index.html" class="navbar__link">Inicio</a>
+            </li>
+            <li class="navbar__item item">
+              <a href="add-menu.html" class="navbar__link">Agregar</a>
+            </li>
+            <li class="navbar__item item">
+              <a href="consult-menu.html" class="navbar__link">Consultar</a>
+            </li>
+          </div>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="forms__container">
+        <h2>Cliente</h2>
+        <form action="" class="form-containter-1">
+          <div class="center">
+            <div class="form__item">
+              <input id="name" type="text" name="" required="" />
+              <label>Nombre</label>
+            </div>
+          </div>
+
+          <div class="center">
+            <div class="form__item">
+              <input id="last-name" type="text" name="" required="" />
+              <label>Apellidos</label>
+            </div>
+          </div>
+
+          <div class="center">
+            <div class="form__item">
+              <input id="date" type="date" name="" required="" />
+              <label class="date-label">Fecha de nacimiento</label>
+            </div>
+          </div>
+
+          <div class="center">
+            <div class="form__item"></div>
+          </div>
+
+          <div class="center-1" id="add-modal-cliente">
+            <a >
+              <span></span>
+              Enviar
+            </a>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <div class="container__modal" id="modal">
+      <div class="modal">
+        <div class="container__circle-x" id="circle-x">
+          <i id="icon-x" class="fa-solid fa-xmark icon-x"></i>
+        </div>
+
+        <p class="modal__text" id="modal__text">
+          No se permiten signos en el nombre
+        </p>
+
+        <div class="close-modal" id="close-modal">
+          <a>
+            <span></span>
+            Cerrar
+          </a>
+        </div>
+      </div>
+    </div>
+    <script src="../javascript/script.js"></script>
+
+  </body>
+</html>
